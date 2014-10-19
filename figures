@@ -1,0 +1,5 @@
+hist1 <- ggplot(stepsPerDay,aes(x=date,y=steps)) + 
+  geom_bar(stat="identity") + 
+  ggtitle("Total number of steps per day (source data)")
+
+print(hist1)
